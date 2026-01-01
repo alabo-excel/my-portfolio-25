@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import works from "../../data/works.json";
+import Connect from "components/Connect";
 
 export default function ProjectsPage() {
     const [filter, setFilter] = useState('all');
@@ -11,7 +12,7 @@ export default function ProjectsPage() {
         <main className="min-h-screen bg-white text-black dark:bg-black dark:text-white">
             <section className="mx-auto max-w-4xl px-6 py-16">
                 <h1 className="text-4xl font-bold">Projects</h1>
-                <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                <p className="mt-2 text-sm text-white">
                     A selection of things I’ve built or contributed to.
                 </p>
 
@@ -19,8 +20,8 @@ export default function ProjectsPage() {
                     <button
                         onClick={() => setFilter('all')}
                         className={`rounded-full px-4 py-2 text-sm border ${filter === 'all'
-                                ? 'bg-black text-white border-black dark:bg-white dark:text-black dark:border-white'
-                                : 'bg-transparent text-black border-black hover:bg-black hover:text-white dark:bg-transparent dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black'
+                            ? 'bg-black text-white border-black dark:bg-white dark:text-black dark:border-white'
+                            : 'bg-transparent text-black border-black hover:bg-black hover:text-white dark:bg-transparent dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black'
                             }`}
                     >
                         All
@@ -28,8 +29,8 @@ export default function ProjectsPage() {
                     <button
                         onClick={() => setFilter('personal')}
                         className={`rounded-full px-4 py-2 text-sm border ${filter === 'personal'
-                                ? 'bg-black text-white border-black dark:bg-white dark:text-black dark:border-white'
-                                : 'bg-transparent text-black border-black hover:bg-black hover:text-white dark:bg-transparent dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black'
+                            ? 'bg-black text-white border-black dark:bg-white dark:text-black dark:border-white'
+                            : 'bg-transparent text-black border-black hover:bg-black hover:text-white dark:bg-transparent dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black'
                             }`}
                     >
                         Personal
@@ -37,8 +38,8 @@ export default function ProjectsPage() {
                     <button
                         onClick={() => setFilter('client')}
                         className={`rounded-full px-4 py-2 text-sm border ${filter === 'client'
-                                ? 'bg-black text-white border-black dark:bg-white dark:text-black dark:border-white'
-                                : 'bg-transparent text-black border-black hover:bg-black hover:text-white dark:bg-transparent dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black'
+                            ? 'bg-black text-white border-black dark:bg-white dark:text-black dark:border-white'
+                            : 'bg-transparent text-black border-black hover:bg-black hover:text-white dark:bg-transparent dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black'
                             }`}
                     >
                         Client
@@ -55,7 +56,7 @@ export default function ProjectsPage() {
                                 <h2 className="text-3xl font-semibold">{proj.name}</h2>
                             </div>
 
-                            <p className="mt-2 text-gray-700 dark:text-gray-300">
+                            <p className="mt-2 text-white">
                                 {proj.description}
                             </p>
                             <p className="mt-2 text-sm">
@@ -67,7 +68,7 @@ export default function ProjectsPage() {
                                     href={proj.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="inline-block rounded-full bg-white text-black border border-gray-300 px-4 py-2 text-sm hover:bg-white hover:text-black hover:border-gray-400 dark:bg-black dark:text-white dark:border-gray-700"
+                                    className="inline-block rounded-full bg-white text-black border border-white px-4 py-2 text-sm hover:bg-white hover:text-black hover:border-white dark:bg-black dark:text-white dark:border-white"
                                 >
                                     Visit site →
                                 </a>
@@ -79,11 +80,12 @@ export default function ProjectsPage() {
                 <div className="mt-10">
                     <Link
                         href="/"
-                        className="inline-flex items-center rounded-full bg-white text-black border border-gray-300 px-4 py-2 text-sm hover:bg-white hover:border-gray-400 dark:border-gray-700"
+                        className="inline-flex items-center rounded-full bg-white text-black border border-white px-4 py-2 text-sm hover:bg-white hover:border-white dark:border-white"
                     >
                         ← Back
                     </Link>
                 </div>
+                <Connect />
             </section>
         </main>
     )

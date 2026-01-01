@@ -2,16 +2,16 @@ import React from "react";
 
 const socials = [
     { label: "GitHub", href: "https://github.com/alabo-excel" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/alaboexcel" },
-    { label: "X (Twitter)", href: "https://x.com/alaboexcel" },
-    { label: "Email", href: "mailto:hello@alaboexcel.com" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/alabo-excel" },
+    { label: "X (Twitter)", href: "https://x.com/alaboExcel" },
+    { label: "Email", href: "mailto:alaboexcel@gmail.com" },
 ];
 
 const Connect = () => {
     return (
-        <section className="mt-16 mx-auto max-w-3xl px-6 py-10 border-t border-gray-300 dark:border-gray-700 text-center">
+        <section className="mt-16 mx-auto max-w-3xl px-6 py-10 border-t border-white text-center">
             <h2 className="text-4xl font-semibold">Connect with Me</h2>
-            <p className="mt-2 text-sm text-gray-700 dark:text-gray-300">
+            <p className="mt-2 text-sm text-white">
                 If you'd like to get in touch, feel free to reach out on any of these platforms.
             </p>
 
@@ -22,7 +22,7 @@ const Connect = () => {
                             href={s.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-block rounded-full bg-white text-black border border-gray-300 px-4 py-2 text-sm hover:bg-transparent hover:text-white dark:bg-black dark:text-white dark:border-gray-700"
+                            className="inline-block rounded-full bg-white text-black border border-white px-4 py-2 text-sm hover:bg-transparent hover:text-white dark:bg-black dark:text-white dark:border-white"
                         >
                             {s.label}
                         </a>
