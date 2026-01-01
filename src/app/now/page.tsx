@@ -37,7 +37,8 @@ export default function NowPage() {
                         <ul className="mt-3 list-disc pl-5 text-gray-700 dark:text-gray-300">
                             <li>Reading more books and essays to broaden perspective.</li>
                             <li>Running weekly for clarity, consistency, and health.</li>
-                            <li>Creating content: writing and short videos to share lessons learned.</li>
+                            <li>Writing about technology, tools, and personal growth.</li>
+                            <li>Learning how to play the piano</li>
                         </ul>
                     </section>
 

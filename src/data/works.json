@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Aim Vfx",
+        "link": "http://aimvfx.co/",
+        "techUsed": "Javascript (Next), Tailwind, Framer",
+        "description": "Portfolio for Astonish, a motion designer and storyteller.",
+        "category": "client"
+    },
+    {
+        "name": "Playeer",
+        "link": "https://playeer.africa/",
+        "techUsed": "Javascript (Next), Tailwind, Node.js, Express",
+        "description": "Playeer is a platform where african players can showcase their skills, build professional profiles, and get visibility from scouts, agents, and clubs around the world.",
+        "category": "client"
+    },
+    {
+        "name": "LB Academy",
+        "link": "https://academy.lbdao.xyz/",
+        "techUsed": "Javascript (React), Next, Firebase, Tailwind",
+        "description": "LB Academy is a hands-on web3 learning platform.",
+        "projectActive": false,
+        "category": "client"
+    },
+    {
+        "name": "MDX",
+        "link": "https://mdxperience.org/",
+        "techUsed": "Javascript (React), Next, Tailwind",
+        "description": "MDX is a lively community of motion design enthusiasts passionate about creativity and collaboration. ",
+        "category": "client"
+    },
+    {
+        "name": "Ensio Creative",
+        "link": "https://ensiocreative.co/",
+        "techUsed": "Javascript (React), Next, Tailwind",
+        "description": "Ensio Creative is a strategy-led branding and design agency.",
+        "category": "client"
+    },
+    {
+        "name": "Experthub Trainings",
+        "link": "https://trainings.experthubllc.com/",
+        "techUsed": "Javascript (React), Next, Node, Tailwind",
+        "description": "Experthub Trainings is a training provider that specialises in accredited and bespoke training courses.",
+        "category": "client"
+    },
+    {
+        "name": "Readly",
+        "link": "https://readly-app.netlify.app/",
+        "techUsed": "Javascript (React), Next, Supabase, Tailwind",
+        "description": "Readly is a simple platform for discovering and reading books (audio) written in the 80's from the gutenberg API.",
+        "category": "personal"
+    }
+]

@@ -19,7 +19,9 @@ export default function Home() {
             View Projects
           </Link>
           <Link
-            href="/blog"
+            href="https://alaboexcel.hashnode.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-full bg-white text-black border border-gray-300 px-6 py-3 text-sm hover:bg-transparent hover:text-white"
           >
             Read Blogs
