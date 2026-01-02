@@ -27,7 +27,7 @@ export default function NowPage() {
                     <section aria-labelledby="focus-heading">
                         <h2 id="focus-heading" className="text-2xl font-semibold">Focus</h2>
                         <ul className="mt-3 list-disc pl-5 text-white">
-                            <li>Studies: deepening fundamentals and completing current coursework.</li>
+                            {/* <li>Studies: deepening fundamentals and completing current coursework.</li> */}
                             <li>Job: delivering high-quality work and evolving team practices.</li>
                             <li>Let’s Build DAO: Building designing, documenting, and shipping community-driven features and ideas.</li>
                         </ul>
