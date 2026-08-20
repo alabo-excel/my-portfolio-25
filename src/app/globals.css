@@ -1,28 +1,68 @@
 @import "tailwindcss";
 
+/* ── Palette ───────────────────────────────────────────────────────────────
+   Warm paper + ink with a clay accent and a green reserved for live status.
+   Every colour is defined here first so light mode is never conditional. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --paper: #faf9f6;
+  --surface: #ffffff;
+  --ink: #191815;
+  --muted: #6d6a62;
+  --rule: #e4e0d7;
+  --accent: #b8461f;
+  --accent-soft: #f6ece6;
+  --live: #2f7d4f;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --paper: #0c0c0d;
+    --surface: #141416;
+    --ink: #ebe8e2;
+    --muted: #9a968e;
+    --rule: #272729;
+    --accent: #f08b52;
+    --accent-soft: #1d1512;
+    --live: #63c68b;
   }
 }
 
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-live: var(--live);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Mono is used for metadata — keep figures aligned in columns and tags */
+.font-mono {
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+/* One consistent focus ring everywhere, since much of the UI is link-driven */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
 /* Smooth scroll for all pages */
@@ -30,14 +70,39 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Entrance used once per page region — orientation, not decoration */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise {
+  animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+}
+
 /* Respect users who prefer reduced motion */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
+
+  .rise {
+    animation: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
 }
 
-/* Hide scrollbar but keep scroll functional */
 /* Hide scrollbars across all elements (keeps scrolling) */
 html,
 body,

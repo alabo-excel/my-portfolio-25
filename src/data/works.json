@@ -1,52 +1,183 @@
 [
     {
-        "name": "Aim Vfx",
-        "link": "http://aimvfx.co/",
-        "techUsed": "Javascript (Next), Tailwind, Framer",
-        "description": "Portfolio for Astonish, a motion designer and storyteller.",
-        "category": "client"
-    },
-    {
+        "slug": "playeer",
         "name": "Playeer",
-        "link": "https://playeer.africa/",
-        "techUsed": "Javascript (Next), Tailwind, Node.js, Express",
-        "description": "Playeer is a platform where african players can showcase their skills, build professional profiles, and get visibility from scouts, agents, and clubs around the world.",
-        "category": "client"
+        "link": "https://playeer.netlify.app/",
+        "domain": "playeer.netlify.app",
+        "description": "A platform where African players showcase their skills and build profiles visible to scouts, agents, and clubs.",
+        "tech": [
+            "Next.js",
+            "Tailwind",
+            "Node.js",
+            "Express"
+        ],
+        "category": "client",
+        "status": "live",
+        "image": "/shots/playeer.jpg",
+        "featured": true
     },
     {
+        "slug": "lb-academy",
         "name": "LB Academy",
         "link": "https://academy.lbdao.xyz/",
-        "techUsed": "Javascript (React), Next, Firebase, Tailwind",
-        "description": "LB Academy is a hands-on web3 learning platform.",
-        "projectActive": false,
-        "category": "client"
+        "domain": "academy.lbdao.xyz",
+        "description": "A hands-on web3 learning platform built around guided, interactive problem solving for smart contracts.",
+        "tech": [
+            "React",
+            "Next.js",
+            "Firebase",
+            "Tailwind"
+        ],
+        "category": "client",
+        "status": "live",
+        "image": "/shots/lb-academy.jpg",
+        "featured": true
     },
     {
+        "slug": "mdx",
         "name": "MDX",
         "link": "https://mdxperience.org/",
-        "techUsed": "Javascript (React), Next, Tailwind",
-        "description": "MDX is a lively community of motion design enthusiasts passionate about creativity and collaboration. ",
-        "category": "client"
+        "domain": "mdxperience.org",
+        "description": "Motion Design Xperience — a community site for motion designers, built around event coverage and member stories.",
+        "tech": [
+            "React",
+            "Next.js",
+            "Tailwind"
+        ],
+        "category": "client",
+        "status": "live",
+        "image": "/shots/mdx.jpg",
+        "featured": true
     },
     {
+        "slug": "edenn",
+        "name": "Edenn",
+        "link": "https://www.edenn.io/",
+        "domain": "edenn.io",
+        "description": "A discovery platform for creative technologists — talents, studios, and games — with dynamic profiles and search.",
+        "tech": [
+            "Next.js",
+            "Tailwind"
+        ],
+        "category": "client",
+        "status": "live",
+        "image": "/shots/edenn.jpg",
+        "featured": false
+    },
+    {
+        "slug": "ensio-creative",
         "name": "Ensio Creative",
         "link": "https://ensiocreative.co/",
-        "techUsed": "Javascript (React), Next, Tailwind",
-        "description": "Ensio Creative is a strategy-led branding and design agency.",
-        "category": "client"
+        "domain": "ensiocreative.co",
+        "description": "Site for a strategy-led branding and design agency, built to carry oversized editorial typography.",
+        "tech": [
+            "React",
+            "Next.js",
+            "Tailwind"
+        ],
+        "category": "client",
+        "status": "live",
+        "image": "/shots/ensio-creative.jpg",
+        "featured": false
     },
     {
+        "slug": "experthub-trainings",
         "name": "Experthub Trainings",
         "link": "https://trainings.experthubllc.com/",
-        "techUsed": "Javascript (React), Next, Node, Tailwind",
-        "description": "Experthub Trainings is a training provider that specialises in accredited and bespoke training courses.",
-        "category": "client"
+        "domain": "trainings.experthubllc.com",
+        "description": "A training marketplace for accredited and bespoke courses, connecting learners to vetted instructors.",
+        "tech": [
+            "React",
+            "Next.js",
+            "Node.js",
+            "Tailwind"
+        ],
+        "category": "client",
+        "status": "live",
+        "image": "/shots/experthub-trainings.jpg",
+        "featured": false
     },
     {
+        "slug": "readly",
         "name": "Readly",
         "link": "https://readly-app.netlify.app/",
-        "techUsed": "Javascript (React), Next, Supabase, Tailwind",
-        "description": "Readly is a simple platform for discovering and reading books (audio) written in the 80's from the gutenberg API.",
-        "category": "personal"
+        "domain": "readly-app.netlify.app",
+        "description": "A reading and listening app for public-domain books pulled from the Gutenberg API.",
+        "tech": [
+            "React",
+            "Next.js",
+            "Supabase",
+            "Tailwind"
+        ],
+        "category": "personal",
+        "status": "live",
+        "image": "/shots/readly.jpg",
+        "featured": false
+    },
+    {
+        "slug": "a03labs",
+        "name": "A03 Labs",
+        "link": "https://a03labs.com/",
+        "domain": "a03labs.com",
+        "description": "Site for a software studio that treats architecture as seriously as code — discovery and a real plan before the first sprint.",
+        "tech": [
+            "React",
+            "React Router",
+            "Vite",
+            "Tailwind"
+        ],
+        "category": "personal",
+        "status": "live",
+        "image": "/shots/a03labs.jpg",
+        "featured": false
+    },
+    {
+        "slug": "culangex",
+        "name": "CulangeX",
+        "link": "https://zippy-churros-2ec6d8.netlify.app/",
+        "domain": "zippy-churros-2ec6d8.netlify.app",
+        "description": "Launch site for Journey Within: Lexicons and Lore — a language-learning adventure game for creators, educators, and schools.",
+        "tech": [
+            "React",
+            "Next.js",
+            "Tailwind"
+        ],
+        "category": "client",
+        "status": "live",
+        "image": "/shots/culangex.jpg",
+        "featured": false
+    },
+    {
+        "slug": "firstword",
+        "name": "FirstWord",
+        "link": "https://firstword.online/",
+        "domain": "firstword.online",
+        "description": "Marketing site for a Bible, devotional, and prayer app built around focused reading and fewer distractions.",
+        "tech": [
+            "React",
+            "Next.js",
+            "Tailwind"
+        ],
+        "category": "personal",
+        "status": "live",
+        "image": "/shots/firstword.jpg",
+        "featured": false
+    },
+    {
+        "slug": "aim-vfx",
+        "name": "AIM VFX",
+        "link": "https://aim-vfx.netlify.app/",
+        "domain": "aim-vfx.netlify.app",
+        "description": "Studio site for AIM, a motion design practice turning stories into unforgettable animated visual experiences.",
+        "tech": [
+            "React",
+            "React Router",
+            "Vite",
+            "Tailwind"
+        ],
+        "category": "client",
+        "status": "live",
+        "image": "/shots/aim-vfx.jpg",
+        "featured": false
     }
 ]
