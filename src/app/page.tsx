@@ -22,10 +22,16 @@ export default function Home() {
                     <h1 className="mt-5 text-4xl leading-[1.05] font-semibold tracking-tight text-balance sm:text-8xl">
                         Hi, I’m Alabo Excel.
                         <br />
-                        <span className="text-muted">I build products that solve real problems.</span>
+                        <span className="text-muted">
+                            I build{" "}
+                            <span className="rounded-md bg-accent-soft px-2 text-accent">
+                                products
+                            </span>{" "}
+                            that solve real problems.
+                        </span>
                     </h1>
                     <p className="mt-6 max-w-xl text-base leading-relaxed text-muted">
-                        I work across web and mobile with React, Next.js, and Node.js — with a bias
+                        I work across web and mobile with React, Next.js, and Node.js with a bias
                         toward clean code, performance, and interfaces people can actually use.
                     </p>
 

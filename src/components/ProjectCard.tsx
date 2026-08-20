@@ -65,7 +65,7 @@ export default function ProjectCard({
     const body = (
         <>
             {/* Browser bar carries the real domain — the proof these shipped */}
-            <div className="flex items-center gap-2.5 border-b border-rule px-4 py-2.5">
+            {/* <div className="flex items-center gap-2.5 border-b border-rule px-4 py-2.5">
                 <span aria-hidden className="flex shrink-0 gap-1.5">
                     <span className="size-2 rounded-full bg-rule" />
                     <span className="size-2 rounded-full bg-rule" />
@@ -81,7 +81,7 @@ export default function ProjectCard({
                         {live ? "Live" : "Offline"}
                     </span>
                 </span>
-            </div>
+            </div> */}
 
             <div className="relative aspect-16/10 overflow-hidden bg-paper">
                 <Preview project={project} />

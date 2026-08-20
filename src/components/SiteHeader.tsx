@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 
 const links = [
     { href: "/projects", label: "Work" },
-    { href: "/now", label: "Now" },
+    // { href: "/now", label: "Now" },
     { href: "https://alaboexcel.hashnode.dev/", label: "Writing", external: true },
 ];
 
@@ -14,7 +14,7 @@ export default function SiteHeader() {
     return (
         <header className="border-b border-rule">
             <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-5 sm:px-6">
-                <Link href="/" className="font-serif text-lg transition-colors hover:text-accent">
+                <Link href="/" className="text-lg transition-colors hover:text-accent">
                     Alabo Excel
                 </Link>
 

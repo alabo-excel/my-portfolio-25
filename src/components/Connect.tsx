@@ -17,7 +17,11 @@ const Connect = () => {
                             Connect
                         </p>
                         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
-                            Let’s build something.
+                            Let’s{" "}
+                            <span className="rounded-md bg-accent-soft px-2 text-accent">
+                                build
+                            </span>{" "}
+                            something.
                         </h2>
                         <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">
                             I’m always up for a conversation about a product, a team, or an idea
