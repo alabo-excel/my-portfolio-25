@@ -19,7 +19,7 @@ export default function Home() {
                     <p className="font-mono text-[11px] tracking-[0.18em] text-muted uppercase">
                         Software engineer <span className="text-accent">/</span> Community builder
                     </p>
-                    <h1 className="mt-5 text-4xl leading-[1.05] font-semibold tracking-tight text-balance sm:text-7xl">
+                    <h1 className="mt-5 text-4xl leading-[1.05] font-semibold tracking-tight text-balance sm:text-8xl">
                         Hi, I’m Alabo Excel.
                         <br />
                         <span className="text-muted">I build products that solve real problems.</span>
@@ -46,12 +46,12 @@ export default function Home() {
                             Read the blog
                             <span aria-hidden className="font-mono text-xs">↗</span>
                         </Link>
-                        <Link
+                        {/* <Link
                             href="/now"
                             className="inline-flex items-center gap-2 px-1 py-2.5 text-sm text-muted underline decoration-rule decoration-1 underline-offset-4 transition-colors hover:text-accent hover:decoration-accent"
                         >
                             What I’m doing now
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </section>

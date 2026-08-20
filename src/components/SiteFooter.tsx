@@ -9,24 +9,21 @@ export default function SiteFooter() {
 
     return (
         <footer className="border-t border-rule">
-            <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-8 font-mono text-[11px] tracking-[0.08em] text-muted uppercase sm:flex-row sm:items-center sm:justify-between">
+            <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-8 text-sm text-muted">
                 <p>© {new Date().getFullYear()} Alabo Excel</p>
-                <p className="flex items-center gap-4">
-                    <span>Next.js / Tailwind</span>
-                    <button
-                        type="button"
-                        onClick={scrollToTop}
-                        className="group inline-flex items-center gap-1.5 uppercase transition-colors hover:text-accent"
+                <button
+                    type="button"
+                    onClick={scrollToTop}
+                    className="group inline-flex items-center gap-1.5 transition-colors hover:text-accent"
+                >
+                    Back to top
+                    <span
+                        aria-hidden
+                        className="transition-transform duration-300 group-hover:-translate-y-0.5"
                     >
-                        Top
-                        <span
-                            aria-hidden
-                            className="transition-transform duration-300 group-hover:-translate-y-0.5"
-                        >
-                            ↑
-                        </span>
-                    </button>
-                </p>
+                        ↑
+                    </span>
+                </button>
             </div>
         </footer>
     );
