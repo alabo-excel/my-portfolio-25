@@ -31,7 +31,7 @@ const sections = [
 
 export default function NowPage() {
     return (
-        <section className="mx-auto max-w-5xl px-6 pt-14 pb-16 sm:pt-20 sm:pb-20">
+        <section className="mx-auto max-w-6xl px-6 pt-14 pb-16 sm:pt-20 sm:pb-20">
             <p className="font-mono text-[11px] tracking-[0.18em] text-muted uppercase">
                 Updated {UPDATED}
             </p>
@@ -55,7 +55,7 @@ export default function NowPage() {
                 {sections.map((section) => (
                     <section
                         key={section.label}
-                        className="grid gap-5 sm:grid-cols-[10rem_1fr] sm:gap-14"
+                        className="grid gap-5 sm:grid-cols-[13rem_1fr] sm:gap-14"
                     >
                         <h2 className="font-mono text-[11px] tracking-[0.18em] text-muted uppercase">
                             {section.label}
@@ -73,7 +73,7 @@ export default function NowPage() {
                     </section>
                 ))}
 
-                <section className="grid gap-5 sm:grid-cols-[10rem_1fr] sm:gap-14">
+                <section className="grid gap-5 sm:grid-cols-[13rem_1fr] sm:gap-14">
                     <h2 className="font-mono text-[11px] tracking-[0.18em] text-muted uppercase">
                         Say hi
                     </h2>

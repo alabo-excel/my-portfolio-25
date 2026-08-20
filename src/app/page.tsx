@@ -14,7 +14,7 @@ const stack = [
 export default function Home() {
     return (
         <>
-            <section className="mx-auto max-w-5xl px-6 pt-16 pb-14 sm:pt-24 sm:pb-20">
+            <section className="mx-auto max-w-6xl px-6 pt-16 pb-14 sm:pt-24 sm:pb-20">
                 <div className="rise">
                     <p className="font-mono text-[11px] tracking-[0.18em] text-muted uppercase">
                         Software engineer <span className="text-accent">/</span> Community builder
@@ -57,7 +57,7 @@ export default function Home() {
             </section>
 
             <section aria-labelledby="work-heading" className="border-t border-rule">
-                <div className="mx-auto max-w-5xl px-6 py-14 sm:py-20">
+                <div className="mx-auto max-w-6xl px-6 py-14 sm:py-20">
                     <div className="flex flex-wrap items-baseline justify-between gap-4">
                         <h2 id="work-heading" className="text-2xl font-semibold tracking-tight sm:text-3xl">
                             Selected work
@@ -79,8 +79,8 @@ export default function Home() {
             </section>
 
             <section aria-labelledby="about-heading" className="border-t border-rule">
-                <div className="mx-auto max-w-5xl px-6 py-14 sm:py-20">
-                    <div className="grid gap-8 sm:grid-cols-[10rem_1fr] sm:gap-14">
+                <div className="mx-auto max-w-6xl px-6 py-14 sm:py-20">
+                    <div className="grid gap-8 sm:grid-cols-[13rem_1fr] sm:gap-14">
                         <h2
                             id="about-heading"
                             className="font-mono text-[11px] tracking-[0.18em] text-muted uppercase"

@@ -10,7 +10,7 @@ const socials = [
 const Connect = () => {
     return (
         <section id="connect" className="border-t border-rule">
-            <div className="mx-auto max-w-5xl px-6 py-16 sm:py-20">
+            <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
                 <div className="grid gap-10 sm:grid-cols-[1fr_1.2fr] sm:gap-16">
                     <div>
                         <p className="font-mono text-[11px] tracking-[0.18em] text-muted uppercase">

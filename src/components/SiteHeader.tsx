@@ -13,7 +13,7 @@ export default function SiteHeader() {
 
     return (
         <header className="sticky top-0 z-50 border-b border-rule bg-paper/80 backdrop-blur-md">
-            <div className="mx-auto flex h-16 max-w-5xl items-center justify-between gap-3 px-5 sm:gap-4 sm:px-6">
+            <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-5 sm:gap-4 sm:px-6">
                 <Link href="/" className="group flex shrink-0 items-center gap-3">
                     <span className="grid size-8 shrink-0 place-items-center rounded-full border border-rule font-mono text-[11px] transition-colors group-hover:border-accent group-hover:text-accent">
                         AE
