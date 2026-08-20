@@ -58,7 +58,7 @@ export default function ProjectsPage() {
                                 }`}
                         >
                             {option.label}
-                            <span className="font-mono text-[10px] opacity-60">
+                            <span className="font-mono text-[10px]">
                                 {counts[option.key]}
                             </span>
                         </button>

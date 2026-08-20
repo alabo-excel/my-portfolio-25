@@ -7,7 +7,7 @@
   --paper: #faf9f6;
   --surface: #ffffff;
   --ink: #191815;
-  --muted: #6d6a62;
+  --muted: #191815;
   --rule: #e4e0d7;
   --accent: #b8461f;
   --accent-soft: #f6ece6;
@@ -18,8 +18,8 @@
   :root {
     --paper: #0c0c0d;
     --surface: #141416;
-    --ink: #ebe8e2;
-    --muted: #9a968e;
+    --ink: #ffffff;
+    --muted: #ffffff;
     --rule: #272729;
     --accent: #f08b52;
     --accent-soft: #1d1512;
